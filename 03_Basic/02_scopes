@@ -1,0 +1,12 @@
+//global scope
+var c = 900 ;
+
+//local scope
+if(1){
+    let a = 10 ;
+    const b = 33;
+    var c = 90 ;    
+}
+// console.log(a); //not accessible outside of the scope -> which is good 
+// console.log(b); //not accessible outside of the scope-> which is good
+console.log(c); //accessible outside of the scope -> which is not good
